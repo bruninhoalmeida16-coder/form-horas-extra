@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js"></script>
+    <title>Horas Extras⏱</title>
+</head>
+<body>
+    <form class="form-container">
+        <div class="h1">
+           <h1><b>Horas Extras⏱</b></h1> 
+        </div>
+
+        <div>
+            <label>
+                <b> Id.Tel:</b>
+                <input type="number" 
+                id="idtel"
+                placeholder="digite Seu Id"
+                autofocus required  class="inputs">
+             </label>
+        </div>
+
+        <div>
+            <label>
+             <b> Nome:</b> 
+                <input type="text" autocomplete="name"
+                id="nome" placeholder="digite seu nome" required  class="inputs">                
+           </label>
+        </div>
+
+        <div >
+           <label>
+             <b> Supervisor:</b>
+                <select  id="supervisor" required class="inputs">
+                    <option value="Anderson">Anderson</option>
+                    <option value="Itamar">Itamar</option>
+                    <option value="Baruel">Baruel</option>
+                    <option value="Horlando">Horlando</option>
+                </select>
+           </label>  
+        </div>
+   
+        <div >
+           <label>
+             <b>Percentual(%):</b>
+             <select name="percentual" id="percentual" required class="inputs">
+                <option value="*50%*">50</option>
+                <option value="*100%*">100</option>
+             </select>
+           </label>   
+        </div>
+
+        <div >
+            <label>
+                <b>Data:</b>
+                <input type="date" id="data" required class="inputs">
+            </label>
+        </div>
+
+        <div >
+            <label> 
+                <b>Inicio:</b>
+                <input type="time" id="inicio" required class="inputs">
+            </label>
+               <br>
+            <label>
+                <b>Fim:</b>
+                <input type="time" id="fim" required class="inputs">
+            </label>
+        </div>
+
+        <div>
+           <label>
+             <b>Ta:</b>
+                <input type="number" id="ta" placeholder="Informe a Ta" required  class="inputs">
+           </label>
+        </div>
+
+        <div>
+            <label>
+             <b>Site:</b>
+                <input type="text" id="site" placeholder="informe o Site" required  class="inputs">
+            </label>
+        </div>
+
+        <div>
+             <label>
+                <b>Localidade:</b>
+                <select id="localidade" required  class="inputs">
+            
+                    <option value="são luis-MA">São Luis-MA</option>
+                    <option value="Miranda-MA">Miranda-MA</option>
+                    <option value="Caxias-MA">Caxias-MA</option>
+                    <option value="Timon-MA">Timon-MA</option>
+                    <option value="Santa Inés-MA">Santa Inés-MA</option>
+                    <option value="Matões-MA">Matões-MA</option>
+                    <option value="Pedreiras-MA">Pedreiras-MA</option>
+                    <option value="Outros-MA">Outros-MA</option>
+                
+                </select>
+            </label>
+        </div> 
+
+        <div>
+             <button type="submit" onclick="sendWhatsapp()">
+                <img src="https://matheuscostadesign.github.io/enviar-para-whatsapp/assets/whatsapp.svg" 
+                 alt="Icone Whatsapp"><span>Enviar dados</span>
+             </button>
+        </div>
+
+
+    </form>
+    
+</body>
+</html>
