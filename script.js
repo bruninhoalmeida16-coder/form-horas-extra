@@ -13,7 +13,7 @@ function sendWhatsapp() {
       const dataIso = data ;
       const dataBrasil = dataIso.split('-').reverse().join('/');
 
-      let phoneNumber = ' 5598985513126 ';
+      let phoneNumber = ' 5517981661247 ';
 
       let url = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text="  
 
