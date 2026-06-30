@@ -26,7 +26,7 @@ function sendWhatsapp() {
         + "*Data:* " + dataBrasil + "%0a"
         + "*Inicio:* " + inicio + "%0a"
         + "*Fim:* " + fim + "%0a"
-        + "*Ta:* " + ta + "%0a"
+        + "*Ta/Lp:* " + ta + "%0a"
         + "*Site:* " + site + "%0a"
         + "*Localidade:* " + localidade ;
         
